@@ -9,17 +9,7 @@ class GoogleTranslateComponent extends HTMLElement {
         translateContainer.id = 'google_translate_element';
         this.appendChild(translateContainer);
 
-        // Create the style element for positioning
-        // const style = document.createElement('style');
-        // style.textContent = `
-        //     google-translate {
-        //         position: fixed;
-        //         top: 10px;
-        //         right: 10px;
-        //         z-index: 9999; /* Adjust the z-index as needed */
-        //     }
-        // `;
-        // this.appendChild(style);
+
 
         // Create the script for Google Translate API
         const script = document.createElement('script');
